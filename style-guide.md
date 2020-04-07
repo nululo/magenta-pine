@@ -8,7 +8,7 @@ img_path: /images/3.jpg
 menus:
   main:
     title: Título del munu
-    weight: 3
+    weight: 16
     identifier: /info
 layout: page
 ---
