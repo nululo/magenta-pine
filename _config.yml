@@ -1,24 +1,33 @@
-title: Stackbit Exto Theme
-baseurl: /
 permalink: '/:title/'
 color_scheme: light
 accent_color: pink
 header:
   title: Exto
   has_nav: true
-footer:
-  content: '&copy; Stackbit-Exto. All rights reserved.'
-  links:
-    - text: Made with Stackbit
-      url: 'https://www.stackbit.com'
-      new_window: true
-  has_social: true
 sass:
   indentWidth: 4
   style: nested
   precision: 10
 plugins:
   - jekyll-menus
+collections:
+  posts:
+    permalink: '/posts/:title/'
+title: Stackbit Exto Theme
+baseurl: /
+footer:
+  content: '&copy; Stackbit-Exto. All rights reserved.'
+  links:
+    - text: Made with Stackbit
+      url: 'https://www.stackbit.com'
+      new_window: true
+    - new_window: true
+      text: 'Aviso legal. '
+      url: /legal/
+    - new_window: true
+      text: Protección de datos
+      url: /datos/
+  has_social: false
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -33,6 +42,3 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-collections:
-  posts:
-    permalink: '/posts/:title/'
