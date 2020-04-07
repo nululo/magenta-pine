@@ -2,3 +2,4 @@ main:
   - identifier: urlprueba
     title: URLS PRUEba
     url: pruebadeurl
+    weight: 3
